@@ -1,13 +1,7 @@
 # sIRCd Changes
 
-## Changes since Version 1.0.9
+## Changes since Version 1.0.9-1
 
-- [X] - add vhost for opers support, requiring opers to identify with nickserv firstly
-- [X] - remove zip linking support
-- [X] - fix Compile errors
-- [X] - removed oponlymsg and named staffonly (mode +m prevents none IRCops messaging you)
-- [X] - use sha-512 for SSL
-- [X] - remove DES support for mkpasswd
-- [X] - upgrade sqlite to 3.8.10
-- [X] - remove last update to m_sasl.c
-- [X] - added another cloaking module
+- [X] - added gnutls 3.4 support
+- [X] - added usermode +I which will hide idle from /whois output for non oper accounts
+- [X] - reinstated configuration option for the nick of the SASL agent
