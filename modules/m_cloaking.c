@@ -136,7 +136,7 @@ do_host_cloak_host(const char *inbuf, char *outbuf)
         if (*tptr == '.')
             break;
 
-        if (isdigit(*tptr) || *tptr == '-')
+        if (*tptr == '-')
             continue;
 
         *tptr = b26_alphabet[(*tptr + accum) % 26];
