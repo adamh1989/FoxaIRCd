@@ -1,9 +1,4 @@
 # FoxaIRCd
-[![Build Status](https://travis-ci.org/CustomIRCd/sIRCd.svg?branch=master)](https://travis-ci.org/CustomIRCd/sIRCd)
-
-**FoxaIRCd** is a high performance, lightweight, and scalable
-IRC daemon. It is a fork of the now-defunct ShadowIRCD and seeks to continue in
-the direction ShadowIRCD was headed.
 
 
 ## Supported Platforms
